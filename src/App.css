@@ -1,0 +1,23 @@
+.small-flag {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.medium-flag {
+    width: 250px;
+}
+
+.country-container {
+    margin: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+}

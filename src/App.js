@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage.js';
 import CoutryPage from './pages/CountryPage.js';
+import './App.css';
+import 'typeface-roboto';
 
 function App() {
   const [country, setCountry] = useState(null);
